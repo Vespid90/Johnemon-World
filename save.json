@@ -1,0 +1,24 @@
+{
+  "saved_on": "2024-09-27T14:12:31.242Z",
+  "johnemonMaster": {
+    "name": "Vesid",
+    "johnemonCollection": [
+      {
+        "name": "Fafa",
+        "level": 1,
+        "healthPool": 11,
+        "experienceMeter": 0,
+        "attackRange": 5,
+        "defenseRange": 2,
+        "catchPhrase": "Fafa-Uiiii!"
+      }
+    ]
+  },
+  "healingItems": "",
+  "reviveItems": "",
+  "JOHNBALLS": "",
+  "day": 1,
+  "logs": [
+    "Fafa a été ajouté à votre collection!"
+  ]
+}
