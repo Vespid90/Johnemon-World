@@ -1,16 +1,16 @@
 {
-  "saved_on": "2024-09-27T14:12:31.242Z",
+  "saved_on": "2024-10-01T14:48:19.487Z",
   "johnemonMaster": {
-    "name": "Vesid",
+    "name": "Vespid",
     "johnemonCollection": [
       {
-        "name": "Fafa",
+        "name": "Gosté",
         "level": 1,
-        "healthPool": 11,
+        "healthPool": 22,
         "experienceMeter": 0,
-        "attackRange": 5,
-        "defenseRange": 2,
-        "catchPhrase": "Fafa-Uiiii!"
+        "attackRange": 3,
+        "defenseRange": 3,
+        "catchPhrase": "undefined-Rwww!"
       }
     ]
   },
@@ -19,6 +19,6 @@
   "JOHNBALLS": "",
   "day": 1,
   "logs": [
-    "Fafa a été ajouté à votre collection!"
+    "Gosté a été ajouté à votre collection!"
   ]
 }

@@ -95,6 +95,20 @@ function gameLoad() {
               gameMenu(); // Mettre ici la fonction pour revenir au menu principal
             } else {
               const gameState = JSON.parse(data);
+              johnemonMaster.name = gameState.johnemonMaster.name;
+              johnemonMaster.johnemonCollection =
+                gameState.johnemonMaster.johnemonCollection.map(
+                  (johnemon) =>
+                    new Johnemon(
+                      johnemon.name,
+                      johnemon.level,
+                      johnemon.experienceMeter,
+                      johnemon.attackRange,
+                      johnemon.defenseRange,
+                      johnemon.healthPool,
+                      johnemon.catchPhrase
+                    )
+                );
               console.log("Partie chargée avec succès !");
               setTimeout(() => {
                 actionMenu();

@@ -54,14 +54,22 @@ const students = [
 ];
 
 class Johnemon {
-  constructor() {
-    this.name = this.generateRandomName();
-    this.level = 1;
-    this.experienceMeter = 0;
-    this.attackRange = this.getRandomNumber(1, 8);
-    this.defenseRange = this.getRandomNumber(1, 3);
-    this.healthPool = this.getRandomNumber(10, 30);
-    this.catchPhrase = this.generateCatchPhrases();
+  constructor(
+    name = this.generateRandomName(),
+    level = 1,
+    experienceMeter = 0,
+    attackRange = this.getRandomNumber(1, 8),
+    defenseRange = this.getRandomNumber(1, 3),
+    healthPool = this.getRandomNumber(10, 30),
+    catchPhrase = this.generateCatchPhrases()
+  ) {
+    this.name = name;
+    this.level = level;
+    this.experienceMeter = experienceMeter;
+    this.attackRange = attackRange;
+    this.defenseRange = defenseRange;
+    this.healthPool = healthPool;
+    this.catchPhrase = catchPhrase;
   }
 
   generateRandomName() {
