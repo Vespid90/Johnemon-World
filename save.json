@@ -1,14 +1,14 @@
 {
-  "saved_on": "2024-10-01T14:48:19.487Z",
+  "saved_on": "2024-10-02T18:01:43.516Z",
   "johnemonMaster": {
-    "name": "Vespid",
+    "name": "Test",
     "johnemonCollection": [
       {
-        "name": "Gosté",
+        "name": "Famo",
         "level": 1,
         "healthPool": 22,
         "experienceMeter": 0,
-        "attackRange": 3,
+        "attackRange": 2,
         "defenseRange": 3,
         "catchPhrase": "undefined-Rwww!"
       }
@@ -19,6 +19,6 @@
   "JOHNBALLS": "",
   "day": 1,
   "logs": [
-    "Gosté a été ajouté à votre collection!"
+    "Famo a été ajouté à votre collection!"
   ]
 }
